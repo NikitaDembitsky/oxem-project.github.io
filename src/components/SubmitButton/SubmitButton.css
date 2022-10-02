@@ -109,7 +109,7 @@ button:disabled {
     width: 21px;
     height: 21px;
     margin: auto;
-    background-image: url("./../../images/loader.png");
+    background-image: url("../../images/loader.png");
     animation: 3s linear infinite rotate;
 }
 
