@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Nekst-Black;
+    font-weight: 400;
+    font-style: normal;
+    src: url("../../fonts/Nekst-Black.woff2") format("woff2");
+    font-display: fallback;
+}
+
+.report {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+@media (min-width: 1440px) {
+    .App {
+        width: 1440px;
+    }
+
+    .App-header {
+        font-family: 'Nekst-Black', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 54px;
+        line-height: 90%;
+        width: 53%;
+        margin-left: 3%;
+        margin-top: 15%;
+    }
+
+    .report-label {
+        display: flex;
+        justify-content: space-between;
+        width: 750px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .App {
+        width: 1024px;
+    }
+
+    .report-label {
+        display: flex;
+        width: 700px;
+        justify-content: space-between;
+    }
+
+    .App-header {
+        font-family: 'Nekst-Black', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 54px;
+        line-height: 90%;
+        width: 53%;
+        margin-left: 3%;
+        margin-top: 100px;
+    }
+
+    .report {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .App {
+        width: 768px;
+    }
+
+    .report-label {
+        display: flex;
+        width: 600px;
+        justify-content: space-between;
+        margin-left: 36px;
+    }
+
+    .App-header {
+        font-family: 'Nekst-Black', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 54px;
+        line-height: 90%;
+        width: 753px;
+        margin-left: 3%;
+        margin-top: 64px;
+    }
+
+    .report {
+        display: block;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .App {
+        width: 320px;
+    }
+
+    .report-label {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .App-header {
+        font-family: 'Nekst-Black', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 34px;
+        line-height: 90%;
+        width: 279px;
+        margin-left: 3%;
+        margin-top: 64px;
+    }
+
+    .report {
+        display: block;
+    }
+}

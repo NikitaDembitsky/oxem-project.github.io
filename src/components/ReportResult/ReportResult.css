@@ -1,0 +1,52 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.report-title {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #575757;
+}
+
+.report-total {
+    font-family: 'Nekst-Black', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 90%;
+    color: #575757;
+}
+
+@media (min-width: 1440px) {
+    .report-wrapper {
+        width: 279px;
+    }
+
+    .report-total {
+        width: 315px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .report-title {
+        font-family: 'Gilroy', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 136%;
+        color: #575757;
+    }
+
+    .report-total {
+        font-family: 'Nekst-Black', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 20px;
+        color: #575757;
+    }
+}
