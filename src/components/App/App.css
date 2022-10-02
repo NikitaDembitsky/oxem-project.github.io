@@ -1,10 +1,10 @@
-@font-face {
-    font-family: Nekst-Black;
-    font-weight: 400;
-    font-style: normal;
-    src: url("./../../fonts/Nekst-Black.woff2") format("woff2");
-    font-display: fallback;
-}
+/*@font-face {*/
+/*    font-family: Nekst-Black;*/
+/*    font-weight: 400;*/
+/*    font-style: normal;*/
+/*    src: url("./../../fonts/Nekst-Black.woff2") format("woff2");*/
+/*    font-display: fallback;*/
+/*}*/
 
 .report {
     display: flex;
