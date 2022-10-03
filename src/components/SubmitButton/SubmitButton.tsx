@@ -1,4 +1,4 @@
-import './SubmitButton.css'
+import './SubmitButton.scss'
 import {observer} from "mobx-react-lite";
 import leasing from "../../store/leasing";
 import {useContext} from "react";

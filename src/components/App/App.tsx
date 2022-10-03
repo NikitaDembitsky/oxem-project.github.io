@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-import './App.css';
+import './App.scss';
 import InputContainer from "../InputContainer/InputContainer";
 import ReportResult from "../ReportResult/ReportResult";
 import SubmitButton from "../SubmitButton/SubmitButton";
